@@ -3,17 +3,20 @@
   <head>
     <title>What to Do?</title>
     <link rel="stylesheet" href="assets/css/style.css">
+    <link href='https://fonts.googleapis.com/css?family=Roboto:400,500,700' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.css">
     <script type="text/javascript" src="assets/javascript/lib/jquery-3.0.0.min.js"></script>
   </head>
   <body>
     <div id="listContainer"">
-      <h1>What would Bobby Do!</h1>
-      <button id="inputHide">+</button>
-      <input type="text" name="todo">
+      <h1>What To-Do?
+        <i class="fa fa-plus" aria-hidden="true"></i>
+      </h1>
+      <input type="text" name="todo" placeholder="ADD NEW TODO">
       <ul id="todoList">
-        <li class="todo"><span>X </span>WHY</li>
-        <li class="todo"><span>X </span>THE</li>
-        <li class="todo"><span>X </span>FACE?</li>
+        <li class="todo"><span><i class="fa fa-trash-o" aria-hidden="true"></i> </span>WHY</li>
+        <li class="todo"><span><i class="fa fa-trash-o" aria-hidden="true"></i> </span>THE</li>
+        <li class="todo"><span><i class="fa fa-trash-o" aria-hidden="true"></i> </span>FACE?</li>
       </ul>
     </div>
 
